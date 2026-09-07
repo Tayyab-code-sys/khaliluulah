@@ -15,7 +15,7 @@ Built by TFH Software (https://tfhsoftware.com).
 ## Airtable (the database)
 - Base: `appw2YRB8ziLp5Hhs` (the client's existing "Main" base)
 - Table: `Khalilullah Survey` (id `tblrkuYyD7IVrJ5Yh`)
-- The table has 2 rows named "Sample - please delete" for demo. Real answers land here too.
+- The table is empty and ready for real answers (the demo/test rows were deleted).
 - Field names in the table match the question keys used in `assets/survey.js` and `assets/dashboard.js`. If you rename a field in Airtable, rename it in those files too.
 
 ## How the data flows
