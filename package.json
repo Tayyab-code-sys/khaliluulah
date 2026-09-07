@@ -1,0 +1,9 @@
+{
+  "name": "khalilullah-survey",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Survey and dashboard for the Afghan supplier directory idea.",
+  "scripts": {
+    "dev": "node dev-server.js"
+  }
+}

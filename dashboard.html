@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khalilullah - Feedback Ledger</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/dashboard.css" />
+</head>
+<body>
+
+  <!-- ============ LOGIN ============ -->
+  <div id="login-screen" class="login-wrap">
+    <div class="login-card">
+      <div class="kilim" aria-hidden="true"></div>
+      <div class="login-inner">
+        <img class="login-mark" src="assets/favicon.svg" alt="" width="48" height="48" />
+        <span class="kicker">Khalilullah &middot; Private</span>
+        <h1 class="login-title">The Feedback<br />Ledger</h1>
+        <p class="login-sub">Every honest answer from your friends, in one place. Enter your password to read them.</p>
+        <input class="field" type="password" id="pw-input" placeholder="Password" autocomplete="current-password" />
+        <button class="btn-primary" id="pw-btn">Open the ledger</button>
+        <div class="error-line" id="login-error"></div>
+        <a class="back-link" href="index.html">&larr; Back to the survey</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ DASHBOARD ============ -->
+  <div id="dash-screen" style="display:none;">
+    <header class="masthead">
+      <div class="kilim" aria-hidden="true"></div>
+      <div class="masthead-inner">
+        <div class="mast-left">
+          <span class="kicker light">Afghan Supplier Directory &middot; Idea Test</span>
+          <div class="mast-brand">
+            <img class="mast-mark" src="assets/favicon.svg" alt="" width="40" height="40" />
+            <h1 class="mast-title">The Feedback Ledger</h1>
+          </div>
+        </div>
+        <div class="mast-right">
+          <span class="mast-date" id="mast-date"></span>
+          <button class="btn-ghost" id="logout-btn">Log out</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <div id="dash-loading" class="dash-loading">Reading the ledger&hellip;</div>
+
+      <div id="dash-content" style="display:none;">
+        <section class="stat-band" id="stat-band"></section>
+
+        <section class="section-head">
+          <h2>What people said</h2>
+          <span class="rule"></span>
+        </section>
+        <section class="charts-grid" id="charts"></section>
+
+        <section class="section-head">
+          <h2>Every voice</h2>
+          <span class="rule"></span>
+        </section>
+        <section class="ledger">
+          <div class="table-scroll">
+            <table class="resp-table" id="resp-table"></table>
+          </div>
+        </section>
+      </div>
+
+      <div class="error-line center" id="dash-error"></div>
+    </main>
+
+    <footer class="dash-foot">
+      Khalilullah &middot; Connecting buyers with trusted Afghan suppliers
+    </footer>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="assets/dashboard.js"></script>
+</body>
+</html>

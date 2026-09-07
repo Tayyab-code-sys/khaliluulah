@@ -1,0 +1,8 @@
+<svg width="240" height="64" viewBox="0 0 240 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Khalilullah">
+  <rect width="64" height="64" rx="14" fill="#16452b"/>
+  <path d="M0 50h64v14H0z" fill="#0e3320"/>
+  <path d="M0 50l8 8 8-8 8 8 8-8 8 8 8-8 8 8 8-8" stroke="#c9971f" stroke-width="2" fill="none" opacity="0.55"/>
+  <path d="M32 12c-8.3 0-15 6.5-15 14.6 0 10.2 12.4 21.5 14 22.9.6.5 1.4.5 2 0 1.6-1.4 14-12.7 14-22.9C47 18.5 40.3 12 32 12z" fill="#e6b53c"/>
+  <path d="M32 19l3.1 7.3L42 29.4l-6.9 3.1L32 40l-3.1-7.5L22 29.4l6.9-3.1z" fill="#16452b"/>
+  <text x="80" y="41" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="600" fill="#16452b" letter-spacing="0.2">Khalilullah</text>
+</svg>
